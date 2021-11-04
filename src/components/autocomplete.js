@@ -5,7 +5,7 @@ import instantsearch from 'instantsearch.js';
 import { hits, searchBox, configure, index } from 'instantsearch.js/es/widgets';
 
 // Instant Search connector (added to support query suggestions widget)
-import { connectHits, connectRefinementList } from 'instantsearch.js/es/connectors';
+// import { connectHits, connectRefinementList } from 'instantsearch.js/es/connectors';
 
 // Autocomplete Product + Query Suggestion Templates
 import autocompleteProductTemplate from '../templates/autocomplete-product';

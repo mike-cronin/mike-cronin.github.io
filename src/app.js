@@ -1,5 +1,5 @@
-import algoliasearch from 'algoliasearch';
 import Autocomplete from './components/autocomplete';
+
 
 class SpencerAndWilliamsSearch {
   constructor() {
@@ -27,4 +27,3 @@ class SpencerAndWilliamsSearch {
 }
 
 const app = new SpencerAndWilliamsSearch();
-
